@@ -161,7 +161,7 @@ This repository contains a full-stack solution integrating a Node.js backend wit
   - Set environment variables in `.env`: `SUPABASE_URL`, `SUPABASE_KEY`, `JWT_SECRET`, `EMAIL_USER`, `EMAIL_PASS`, `FACE_RECOGNITION_URL`, `FACE_RECOGNITION_API_KEY`.
 
 - **Python Service**:
-  - Install the python dependencies using `pip install -r requirements.txt`.
+  - Download the Dependencies.
   - Run `python face_recognition_service.py`.
   - Ensure `SUPABASE_URL` and `SUPABASE_KEY` are set for DB access.
 
