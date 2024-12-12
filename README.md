@@ -1,6 +1,6 @@
 # Face Recognition Event Management Application
 
-This repository contains a full-stack solution integrating a Node.js/Express backend with a Python-based face recognition service and a Flutter frontend. The system leverages Supabase as a backend database/storage provider and uses JWT for authentication. Users can register as attendees, photographers, or admins, each having distinct roles and capabilities within the system.
+This repository contains a full-stack solution integrating a Node.js backend with a Python-based face recognition service and a Flutter frontend. The system leverages Supabase as a backend database/storage provider and uses JWT for authentication. Users can register as attendees, photographers, or admins, each having distinct roles and capabilities within the system.
 
 ## Overview
 
@@ -12,7 +12,7 @@ This repository contains a full-stack solution integrating a Node.js/Express bac
    - Interacts with the backend via HTTP requests, sending and receiving JSON.
    - Manages user sessions by storing JWT tokens in local or secure storage.
    
-2. **Backend (Node.js + Express)**:
+2. **Backend (Node.js)**:
    - Hosts RESTful endpoints for authentication, event management, attendee check-ins, and photographer photo uploads.
    - Uses Supabase as a database (PostgreSQL under the hood) and a storage layer for uploaded images.
    - Integrates with a separate Python service for face recognition, sending uploaded photos and receiving identification results.
