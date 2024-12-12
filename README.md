@@ -53,7 +53,7 @@ This repository contains a full-stack solution integrating a Node.js backend wit
 ## Backend Detailed Analysis
 
 **Technologies**:
-- **Express.js** for handling routes and middleware.
+- **Node.js** for handling routes and middleware.
 - **Supabase** client for database interactions and file storage.
 - **jsonwebtoken (JWT)** for authentication and authorization.
 - **bcrypt** for password hashing.
@@ -174,14 +174,6 @@ This repository contains a full-stack solution integrating a Node.js backend wit
   - Configure public bucket `photos` for image storage.
   - Setup RPC functions for attendee/photographer counts if not pre-existing.
   - Ensure database schema matches the backend’s expected tables and columns.
-
-## Possible Improvements
-
-- Add Pagination to all lists on the backend side for efficiency.
-- Implement stricter CORS rules and CSRF protection.
-- Enhance logging and monitoring (e.g., integrate with a logging service).
-- Add tests (unit tests, integration tests) to increase reliability.
-- Include better error messages and possibly multi-language support.
 
 ## Conclusion
 
