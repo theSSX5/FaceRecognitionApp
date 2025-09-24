@@ -175,6 +175,6 @@ This repository contains a full-stack solution integrating a Node.js backend wit
   - Setup RPC functions for attendee/photographer counts if not pre-existing.
   - Ensure database schema matches the backend’s expected tables and columns.
 
-## Conclusion
+## Summary
 
 This Face Recognition Event Management Application demonstrates a modern, scalable approach to event management and personalization. By integrating a robust authentication system, well-structured APIs, a reliable and efficient face recognition microservice, and a responsive Flutter frontend, it provides a seamless experience for all user roles. Administrators can easily manage events; photographers can effortlessly upload and distribute event photos; and attendees can check in with minimal friction, benefiting from advanced facial recognition technology.
